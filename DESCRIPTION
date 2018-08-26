@@ -1,0 +1,35 @@
+Package: addins.icon
+Type: Package
+Title: RStudio Add-ins to Insert Icons
+Version: 0.0.1
+Date: 2018-08-26
+Authors@R: person("Vilmantas", "Gegzna",
+                    email = "GegznaV@gmail.com",
+                    role = c("aut", "cre","cph")
+            )
+Description: Package `addins.icon` contains RStudio add-ins to insert icons 
+             provided by package `icon`.
+URL: http://gegznav.github.io/addins.icon/
+BugReports: https://github.com/GegznaV/addins.icon/issues
+License: MIT + file LICENSE
+LazyData: TRUE
+ByteCompile: TRUE
+Encoding: UTF-8
+RoxygenNote: 6.1.0
+VignetteBuilder: knitr
+Remotes:
+    github::GegznaV/addin.tools
+    github::ropenscilabs/icon
+Depends:
+    R (>= 3.2),
+    addin.tools
+Imports:
+    rstudioapi,
+    magrittr,
+    stringi,
+    stringr,
+    purrr,
+    icon
+Suggests:
+    knitr,
+    rmarkdown
