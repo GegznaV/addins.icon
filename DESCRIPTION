@@ -1,8 +1,8 @@
 Package: addins.icon
 Type: Package
 Title: RStudio Add-ins to Insert Icons
-Version: 0.0.1
-Date: 2018-08-26
+Version: 0.0.2
+Date: 2019-02-08
 Authors@R: person("Vilmantas", "Gegzna",
                     email = "GegznaV@gmail.com",
                     role = c("aut", "cre","cph")
@@ -15,7 +15,7 @@ License: MIT + file LICENSE
 LazyData: TRUE
 ByteCompile: TRUE
 Encoding: UTF-8
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 Remotes:
     github::GegznaV/addin.tools

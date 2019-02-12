@@ -13,6 +13,16 @@ Description: Icon "YouTube square".
 Binding: rmd_icon_fa_youtube_square
 Interactive: false
 
+Name: {Rmd Icon} "YouTube"
+Description: Icon "YouTube".
+Binding: rmd_icon_fa_youtube
+Interactive: false
+
+Name: {Rmd Icon} "Video"
+Description: Icon "Video".
+Binding: rmd_icon_fa_video
+Interactive: false
+
 Name: {Rmd Icon} "External link"
 Description: Icon "External link".
 Binding: rmd_icon_fa_external_link

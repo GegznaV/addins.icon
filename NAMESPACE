@@ -2,6 +2,9 @@
 
 export(rmd_icon_fa_download)
 export(rmd_icon_fa_external_link)
+export(rmd_icon_fa_file)
 export(rmd_icon_fa_file_pdf)
+export(rmd_icon_fa_video)
+export(rmd_icon_fa_youtube)
 export(rmd_icon_fa_youtube_square)
 import(addin.tools)

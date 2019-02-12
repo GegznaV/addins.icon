@@ -34,8 +34,31 @@ rmd_icon_fa_youtube_square <- function() {
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #' @rdname insert_various_rmd
 #' @export
+rmd_icon_fa_youtube <- function() {
+    rs_enclose_selection_with(symbol_before =
+                                  '`r icon::fa("youtube")`')
+}
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#' @rdname insert_various_rmd
+#' @export
+rmd_icon_fa_video <- function() {
+    rs_enclose_selection_with(symbol_before =
+                                  '`r icon::fa("video")`')
+}
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#' @rdname insert_various_rmd
+#' @export
 rmd_icon_fa_file_pdf <- function() {
     rs_enclose_selection_with(symbol_before =
                                   '`r icon::fa("file-pdf")`')
 }
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#' @rdname insert_various_rmd
+#' @export
+rmd_icon_fa_file <- function() {
+    rs_enclose_selection_with(symbol_before =
+                                  '`r icon::fa("file")`')
+}
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
