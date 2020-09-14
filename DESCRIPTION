@@ -18,8 +18,9 @@ Encoding: UTF-8
 RoxygenNote: 7.1.1
 VignetteBuilder: knitr
 Remotes:
-    github::GegznaV/addin.tools
     github::ropenscilabs/icon
+Additional_repositories:
+    https://mokymai.github.io/download/
 Depends:
     R (>= 3.2),
     addin.tools
